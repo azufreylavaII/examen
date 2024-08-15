@@ -23,7 +23,7 @@ function Banner() {
 
   return (
     <div className="banner">
-      <img src={images[currentIndex]} alt="Furniture" className="banner-image" />
+      <img src={images[currentIndex]} alt="Forniture" className="banner-image" />
     </div>
   );
 }

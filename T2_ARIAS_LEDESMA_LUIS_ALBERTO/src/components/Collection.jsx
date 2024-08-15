@@ -1,15 +1,31 @@
 import React from 'react';
+import CollectionDescription from './CollectionDescription';
+import FurnitureItem from './FurnitureItem';
 import './Collection.css';
 
 function Collection() {
   return (
     <section className="collection">
-      <h2>Colección INVINIERNO</h2>
-      <p>Lorem ipsum dolor sit amet consectetur...</p>
+      <CollectionDescription />
       <div className="items">
-        <div className="item">Mueble 1</div>
-        <div className="item">Mueble 2</div>
-        <div className="item">Mueble 3</div>
+        <FurnitureItem 
+          image="/images/furniture1.jpg" 
+          hoverImage="/images/furniture1-hover.jpg" 
+          title="Mueble 1" 
+          description="Hecho de madera" 
+        />
+        <FurnitureItem 
+          image="/images/furniture2.jpg" 
+          hoverImage="/images/furniture2-hover.jpg" 
+          title="Mueble 2" 
+          description="Hecho de madera" 
+        />
+        <FurnitureItem 
+          image="/images/furniture3.jpg" 
+          hoverImage="/images/furniture3-hover.jpg" 
+          title="Mueble 3" 
+          description="Hecho de madera" 
+        />
       </div>
     </section>
   );
