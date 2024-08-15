@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import './FurnitureItem.css';
 
+//esta funcion  contiene parametros que viene
+// desde otro elemnto que lo contiene.
 function FurnitureItem({ image, hoverImage, title, description }) {
+  
   const [currentImage, setCurrentImage] = useState(image);
 
   const handleMouseEnter = () => {
