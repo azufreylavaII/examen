@@ -4,9 +4,9 @@ import './Banner.css';
 function Banner() {
   // Array of image URLs
   const images = [
-    '/images/furniture1.jpg',
-    '/images/furniture2.jpg',
-    '/images/furniture3.jpg'
+    './images/forniture1.png',
+    './images/forniture2.png',
+    './images/forniture3.png'
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
