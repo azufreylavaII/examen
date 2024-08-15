@@ -11,20 +11,20 @@ function Collection() {
         <FurnitureItem 
           image="/images/furniture1.jpg" 
           hoverImage="/images/furniture1-hover.jpg" 
-          title="Mueble 1" 
-          description="Hecho de madera" 
+          title="Chello" 
+          description="El Chello es un mueble elegante y funcional, perfecto para espacios modernos." 
         />
         <FurnitureItem 
           image="/images/furniture2.jpg" 
           hoverImage="/images/furniture2-hover.jpg" 
-          title="Mueble 2" 
-          description="Hecho de madera" 
+          title="Magnus" 
+          description="Un moderno sofá tapizado en terciopelo color marfil, con líneas limpias y estructura robusta." 
         />
         <FurnitureItem 
           image="/images/furniture3.jpg" 
           hoverImage="/images/furniture3-hover.jpg" 
-          title="Mueble 3" 
-          description="Hecho de madera" 
+          title="Tuti" 
+          description="El Tuti es un mueble versátil y encantador, ideal para añadir un toque de alegría a cualquier espacio." 
         />
       </div>
     </section>

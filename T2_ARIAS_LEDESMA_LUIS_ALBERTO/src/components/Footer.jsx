@@ -4,11 +4,19 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <div>MueblesFAST</div>
-      <div className="social-media">
-        <a href="#"><i className="fab fa-facebook"></i></a>
-        <a href="#"><i className="fab fa-instagram"></i></a>
-        <a href="#"><i className="fab fa-youtube"></i></a>
+      <div className="footer-content">
+        <p>&copy; 2024 MueblesFAST. Todos los derechos reservados.</p>
+        <div className="social-icons">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/facebook-icon.png" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/instagram-icon.png" alt="Instagram" />
+          </a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/youtube-icon.png" alt="YouTube" />
+          </a>
+        </div>
       </div>
     </footer>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Collection from './components/Collection';
-import Testimonials from './components/Testimonials';
+import TestimonialsContainer from './components/TestimonialsContainer';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Banner />
       <Collection />
-      <Testimonials />
+      <TestimonialsContainer />
       <Footer />
     </div>
   );
