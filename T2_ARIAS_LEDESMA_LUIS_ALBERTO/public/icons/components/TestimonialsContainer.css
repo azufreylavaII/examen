@@ -1,0 +1,29 @@
+.testimonials-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .arrow {
+    background-color: #e0752f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .arrow:hover {
+    background-color: #c06326;
+  }
+  
+  .left-arrow {
+    margin-right: 20px;
+  }
+  
+  .right-arrow {
+    margin-left: 20px;
+  }
+  

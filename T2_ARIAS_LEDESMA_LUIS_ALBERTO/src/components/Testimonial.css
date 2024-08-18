@@ -8,7 +8,6 @@
 .testimonial-image {
   width: 100%;
   height: auto;
-  border-radius: 50%;
   margin-bottom: 15px;
 }
 
@@ -20,6 +19,6 @@
 
 .testimonial-author {
   font-size: 14px;
-  color: #e0752f;
+  color: #ccaa93;
   font-weight: bold;
 }

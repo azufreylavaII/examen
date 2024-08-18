@@ -1,0 +1,29 @@
+.furniture-item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #e0752f;
+    transition: transform 0.3s;
+  }
+  
+  .furniture-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .furniture-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .furniture-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #e0752f;
+  }
+  
+  .furniture-item p {
+    font-size: 14px;
+    color: #555;
+  }
+  

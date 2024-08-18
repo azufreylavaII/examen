@@ -1,0 +1,18 @@
+.collection {
+    padding: 20px;
+    background-color: #8a7857;
+    text-align: center;
+  }
+  
+  .items {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .item {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ac8e7b;
+  }
+  
